@@ -66,9 +66,9 @@ function show_Users(arr) {
             if (document.querySelector('.active')) {
                 document.querySelector('.active').classList.remove('active')
             }
-            listicon.click()
             user.classList.add('active')
             posts_API(user.id)
+            listicon.click()
         })
     });
 }
